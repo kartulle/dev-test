@@ -10,7 +10,7 @@ function formatDate()
     const ano = novaData[0];
     console.log(`${ano}${mes}${dia}`);
 
-     const htmlDataFormatada = `A nova data formatada é ${ano}${mes}${dia}`;
+    const htmlDataFormatada = `A nova data formatada é ${ano}${mes}${dia}`;
     
     const dataFormatada = document.querySelector('.dataFormatada')
 
