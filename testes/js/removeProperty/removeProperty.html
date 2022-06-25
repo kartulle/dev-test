@@ -1,0 +1,24 @@
+<script>
+
+    function removePropriedade(obj, prop){
+        if(obj.hasOwnProperty(prop)){
+            delete obj[prop];
+            alert("TRUE");
+        }
+        else{
+            alert('FALSE');
+        }
+    }
+    let objeto = {
+        pet1: "cat",
+        pet2: "dog",
+        pet3: "hipopotamo"
+    }
+
+    removePropriedade(objeto, "pet2");
+
+    for(var nome in objeto){
+        alert(objeto[nome])
+    }
+
+</script>
